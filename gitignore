@@ -1,0 +1,10 @@
+# llama.cpp binaries — fetched fresh by install.bat, don't commit these
+bin/windows/*
+!bin/windows/.gitkeep
+
+# Model weights — these are multi-GB and don't belong in git
+models/*.gguf
+
+# OS/editor junk
+Thumbs.db
+.DS_Store

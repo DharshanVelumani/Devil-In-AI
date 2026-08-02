@@ -1,0 +1,16 @@
+# Downloaded binaries and DLLs (installed by install.bat)
+bin/
+bin/*
+
+# Model files (.gguf weights are large and should not be committed)
+models/*.gguf
+
+# Keep directory structure
+!models/.gitkeep
+
+# OS / Editor generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
